@@ -33,9 +33,9 @@ public class Movement : MonoBehaviour
 	{
 	    if (Input.GetKey(KeyCode.RightArrow))
 	    {
-            _layer1.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed) * Layer1Speed, 0);
-            _layer3.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed)* Layer3Speed, 0);
-            _layer4.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed) * Layer4Speed, 0);
+            _layer1.transform.position += new Vector3(((Input.GetAxis("Horizontal") * HorizontalSpeed) * -1) * Layer1Speed, 0);
+            _layer3.transform.position += new Vector3(((Input.GetAxis("Horizontal") * HorizontalSpeed)) * Layer3Speed, 0);
+            _layer4.transform.position += new Vector3(((Input.GetAxis("Horizontal") * HorizontalSpeed)) * Layer4Speed, 0);
 
             _animator.SetBool("IsRunningLeft", false);
             _animator.SetBool("IsRunningRight", true);
@@ -44,8 +44,8 @@ public class Movement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            _layer1.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed) * Layer1Speed, 0);
-            _layer3.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed) * Layer3Speed, 0);
+            _layer1.transform.position += new Vector3(((Input.GetAxis("Horizontal") * HorizontalSpeed) * -1) * Layer1Speed, 0);
+            _layer3.transform.position += new Vector3(((Input.GetAxis("Horizontal") * HorizontalSpeed)) * Layer3Speed, 0);
             _layer4.transform.position += new Vector3((Input.GetAxis("Horizontal") * HorizontalSpeed) * Layer4Speed, 0);
 
             _animator.SetBool("IsRunningRight", false);
