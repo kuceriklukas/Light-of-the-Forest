@@ -23,14 +23,14 @@ public class Movement : MonoBehaviour
 	void Update ()
 	{
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
 	    {
             _animator.SetBool("IsRunningLeft", false);
             _animator.SetBool("IsRunningRight", true);
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
             transform.position += move * Time.deltaTime * HorizontalSpeed;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
             _animator.SetBool("IsRunningRight", false);
             _animator.SetBool("IsRunningLeft", true);
