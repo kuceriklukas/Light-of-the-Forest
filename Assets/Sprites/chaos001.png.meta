@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 734517a26a59289488290426548f9222
+timeCreated: 1458388176
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chaos001_1
+    21300002: chaos001_2
+    21300004: chaos001_3
+    21300006: chaos001_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chaos001_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 23
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 26}
+        - {x: -29, y: 25}
+        - {x: -39, y: 10}
+        - {x: -39, y: -22}
+        - {x: -26, y: -30}
+        - {x: 21, y: -30}
+        - {x: 40, y: -13}
+        - {x: 40, y: -1}
+        - {x: 27, y: 26}
+    - name: chaos001_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 17
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 29}
+        - {x: -42, y: 19}
+        - {x: -45, y: 6}
+        - {x: -45, y: -28}
+        - {x: 29, y: -28}
+        - {x: 45, y: -18}
+        - {x: 45, y: 24}
+        - {x: 41, y: 29}
+    - name: chaos001_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 17
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 23.5}
+        - {x: -30.5, y: -12.5}
+        - {x: -2.5, y: -26.5}
+        - {x: 27.5, y: -26.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 18.5, y: 23.5}
+    - name: chaos001_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 17
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: -31.5}
+        - {x: 18.5, y: -30.5}
+        - {x: 41.5, y: -17.5}
+        - {x: 41.5, y: 6.5}
+        - {x: 31.5, y: 24.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -34.5, y: 17.5}
+        - {x: -38.5, y: 5.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -16.5, y: -31.5}
+        - {x: -1.5, y: -31.5}
+        - {x: -1.5, y: -24.5}
+        - {x: -1.5, y: -31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
