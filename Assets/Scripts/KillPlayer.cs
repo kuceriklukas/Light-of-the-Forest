@@ -13,7 +13,7 @@ public class KillPlayer : MonoBehaviour {
     {
         if (coll.CompareTag("Fox"))
         {
-            Destroy(_killPlayer);
+            _killPlayer.transform.position = CheckPoint.SpawnPoint;
         }
     }
 }
