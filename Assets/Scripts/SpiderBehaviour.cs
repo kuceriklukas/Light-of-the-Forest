@@ -36,6 +36,7 @@ public class SpiderBehaviour : MonoBehaviour
             transform.position += new Vector3(MovementSpeed, 0, 0);
             _animator.SetBool("IsWalking", true);
         }
+
         else
         {
             Vector3 flipLeft = new Vector3(transform.localScale.x * -1, transform.localScale.y,

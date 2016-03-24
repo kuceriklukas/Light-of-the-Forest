@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
 
 public class Movement : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class Movement : MonoBehaviour
     //Setting the player animator
     private Animator _animator;
     //Setting the jump variable to avoid air jumping
-    private bool _isCollided = false;
+    private bool _isCollided;
+    //float _actualJumpForce;
 
     //Our bitflag which checks if the fox is facing left or right
     private bool flipped;
@@ -58,10 +60,14 @@ public class Movement : MonoBehaviour
             _animator.SetBool("IsRunning", false);
         }
 
-	    if (Input.GetKeyDown(KeyCode.Space) && _isCollided)
+	    if (Input.GetKey(KeyCode.Space) && _isCollided)
 	    {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
-	    }	    
+	        //_actualJumpForce += JumpForce*0.1f;
+            //if (_actualJumpForce < JumpForce)
+            //{
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
+            //}
+        }	    
 	}
 
     void OnTriggerStay2D(Collider2D col)
@@ -69,6 +75,7 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag.Equals("Ground"))
         {
             _isCollided = true;
+            //_actualJumpForce = 0f;
         }
     }
 
