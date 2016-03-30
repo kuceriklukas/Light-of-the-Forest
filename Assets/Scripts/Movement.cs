@@ -16,17 +16,21 @@ public class Movement : MonoBehaviour
     //float _actualJumpForce;
 
     //Our bitflag which checks if the fox is facing left or right
-    private bool flipped;
+    public bool flipped;
+
+    //Setting the animation speed here
+    public float animationSpeed;
 
     // Use this for initialization
     void Start ()
 	{
 	    _animator = GetComponent<Animator>();    
         _animator.SetBool("IsRunning", true);
+        _animator.speed = animationSpeed;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
 
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
@@ -35,10 +39,10 @@ public class Movement : MonoBehaviour
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
             Vector3 flipRight = new Vector3(transform.localScale.x * -1, transform.localScale.y,
                 transform.localScale.z);
-            if (flipRight.x > 0 && flipped)
+            if (flipRight.x < 0 && !flipped)
             {
                 transform.localScale = flipRight;
-                flipped = false;
+                flipped = true;
             }
             transform.position += move * Time.deltaTime * HorizontalSpeed;
         }
@@ -48,10 +52,10 @@ public class Movement : MonoBehaviour
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
             Vector3 flipLeft = new Vector3(transform.localScale.x * -1, transform.localScale.y,
                 transform.localScale.z);
-            if (flipLeft.x < 0 && !flipped)
+            if (flipLeft.x > 0 && flipped)
             {
                 transform.localScale = flipLeft;
-                flipped = true;
+                flipped = false;
             }
             transform.position += move * Time.deltaTime * HorizontalSpeed;
         }
