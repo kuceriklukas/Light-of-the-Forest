@@ -76,8 +76,9 @@ public class Movement : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Ground"))
+        if (col.gameObject.tag.Equals("Ground") || col.gameObject.tag.Equals("Enemy"))
         {
+            //UnityEngine.Debug.Log("Triggered for jump");
             _isCollided = true;
             //_actualJumpForce = 0f;
         }

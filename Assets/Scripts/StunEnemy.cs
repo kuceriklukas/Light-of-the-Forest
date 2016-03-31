@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
 
 public class StunEnemy : MonoBehaviour {
 
-    private GameObject _enemyToStun;
-    private AudioSource _destroySound;
+    //private AudioSource _destroySound;
+
+    private SpiderBehaviour spiderObject;
     // Use this for initialization
     void Start ()
     {
-        _destroySound = GameObject.FindGameObjectWithTag("SoundController").GetComponents<AudioSource>()[0];
-        _enemyToStun = transform.parent.gameObject;
+        //_destroySound = GameObject.FindGameObjectWithTag("SoundController").GetComponents<AudioSource>()[0];
+        spiderObject = (SpiderBehaviour) FindObjectOfType(typeof (SpiderBehaviour));
     }
 	
 	// Update is called once per frame
@@ -19,15 +21,10 @@ public class StunEnemy : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.CompareTag("Player"))
+        if (coll.CompareTag("Fox") && spiderObject.stunned == false)
         {
-            _destroySound.Play();
-            //_enemyToStun;
+            //_destroySound.Play();
+            spiderObject.Stun();
         }
-    }
-
-    void Stun()
-    {
-
     }
 }
