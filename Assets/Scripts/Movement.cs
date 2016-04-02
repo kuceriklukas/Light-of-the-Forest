@@ -68,19 +68,21 @@ public class Movement : MonoBehaviour
         }
 
 	    if (Input.GetKey(KeyCode.Space) && _isCollided)
-	    {
+	    {          
             //_actualJumpForce += JumpForce*0.1f;
             //if (_actualJumpForce < JumpForce)
             //{
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
             //}
-        }    
+        }   
 	}
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag.Equals("Enemy"))
         {
+            _animator.SetBool("IsJumping", false);
+            _animator.SetBool("IsJumping", true);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
         }
     }
@@ -93,14 +95,11 @@ public class Movement : MonoBehaviour
             _isCollided = true;
             //_actualJumpForce = 0f;
         }
-        else
-        {
-            _animator.SetBool("IsJumping", true);
-        }
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
+        _animator.SetBool("IsJumping", true);
         _isCollided = false;
     }
 }
