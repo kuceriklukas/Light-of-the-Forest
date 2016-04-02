@@ -8,11 +8,15 @@ public class Movement : MonoBehaviour
     //Setting the movement variables
     public float HorizontalSpeed;
     public float JumpForce;
+    public float AdditionalJumpForce;
 
     //Setting the player animator
     private Animator _animator;
+
     //Setting the jump variable to avoid air jumping
     private bool _isCollided;
+
+    //Abandoned(?) idea of having the player jump further the more you hold the jump key down
     //float _actualJumpForce;
 
     //Our bitflag which checks if the fox is facing left or right
@@ -25,7 +29,6 @@ public class Movement : MonoBehaviour
     void Start ()
 	{
 	    _animator = GetComponent<Animator>();    
-        _animator.SetBool("IsRunning", true);
         _animator.speed = animationSpeed;
 	}
 	
@@ -66,21 +69,33 @@ public class Movement : MonoBehaviour
 
 	    if (Input.GetKey(KeyCode.Space) && _isCollided)
 	    {
-	        //_actualJumpForce += JumpForce*0.1f;
+            //_actualJumpForce += JumpForce*0.1f;
             //if (_actualJumpForce < JumpForce)
             //{
-                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
             //}
-        }	    
+        }    
 	}
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag.Equals("Enemy"))
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
+        }
+    }
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Ground") || col.gameObject.tag.Equals("Enemy"))
+        if (col.gameObject.tag.Equals("Ground"))
         {
-            //UnityEngine.Debug.Log("Triggered for jump");
+            _animator.SetBool("IsJumping", false);
             _isCollided = true;
             //_actualJumpForce = 0f;
+        }
+        else
+        {
+            _animator.SetBool("IsJumping", true);
         }
     }
 
