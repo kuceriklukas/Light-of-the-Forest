@@ -5,6 +5,9 @@ using System.Diagnostics;
 
 public class Movement : MonoBehaviour
 {
+    //Freezing the player when dead
+    //private KillPlayer _killPlayer;
+
     //Setting the movement variables
     public float HorizontalSpeed;
     public float JumpForce;
@@ -30,6 +33,7 @@ public class Movement : MonoBehaviour
 	{
 	    _animator = GetComponent<Animator>();    
         _animator.speed = animationSpeed;
+        //_killPlayer = (KillPlayer) FindObjectOfType(typeof (KillPlayer));
 	}
 	
 	// Update is called once per frame
@@ -72,9 +76,17 @@ public class Movement : MonoBehaviour
             //_actualJumpForce += JumpForce*0.1f;
             //if (_actualJumpForce < JumpForce)
             //{
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
-            //}
-        }   
+	        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
+	        //}
+	    }
+
+	    //if (_killPlayer.died)
+	    //{
+	    //    UnityEngine.Debug.Log("I am hereee!");
+     //       GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+     //       GetComponent<Rigidbody2D>().angularVelocity = 0f;
+	    //    _killPlayer.died = false;
+	    //}
 	}
 
     void OnTriggerEnter2D(Collider2D col)

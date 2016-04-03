@@ -96,7 +96,7 @@ public class SpiderBehaviour : MonoBehaviour
         stunned = true;
     }
 
-    //Unity is using a subset of .NET 2.0 and Restart() is in .NET 4.0, 
+    //Unity is using a subset of .NET 2.0 and Restart() is added in .NET 4.0, 
     //so I just made my own since the other is not available
     public void Restart(Stopwatch internalStopwatch)
     {

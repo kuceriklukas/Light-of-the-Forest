@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class KillPlayer : MonoBehaviour {
+public class KillPlayer : MonoBehaviour
+{
 
+    //public bool died;
     private GameObject _killPlayer;
 	// Use this for initialization
 	void Start () {
@@ -14,6 +16,7 @@ public class KillPlayer : MonoBehaviour {
         if (coll.CompareTag("Fox"))
         {
             _killPlayer.transform.position = CheckPoint.SpawnPoint;
+            //died = true;
         }
     }
 }
