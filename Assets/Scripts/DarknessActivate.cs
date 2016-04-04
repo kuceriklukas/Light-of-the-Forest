@@ -8,7 +8,6 @@ public class DarknessActivate : MonoBehaviour
     private Stopwatch stopwatch;
     private GameObject _darknessChild;
     private bool flagForStopwatch;
-    private bool flagTwo;
     public int MillisecondsOfLight;
 	// Use this for initialization
 	void Start ()
