@@ -77,7 +77,7 @@ public class Movement : MonoBehaviour
             //if (_actualJumpForce < JumpForce)
             //{
             _animator.SetBool("IsRunning", false);
-	        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
 	        //}
 	    }
 
@@ -94,6 +94,7 @@ public class Movement : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Enemy"))
         {
+            _animator.SetBool("IsJumping", false);
             _animator.Play("PlayerJumping");
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
         }
