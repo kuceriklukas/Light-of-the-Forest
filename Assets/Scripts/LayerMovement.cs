@@ -23,7 +23,7 @@ public class LayerMovement : MonoBehaviour
         layerPosition = transform.position;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         //Layer scrolling
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))

@@ -3,20 +3,25 @@ using System.Collections;
 
 public class KillPlayer : MonoBehaviour
 {
-
-    //public bool died;
     private GameObject _killPlayer;
-	// Use this for initialization
-	void Start () {
-	_killPlayer = GameObject.FindGameObjectWithTag("Fox");
-	}
+    private GameObject _moveCamera;
+    private float _cameraPositionZ;
+
+    // Use this for initialization
+    void Start()
+    {
+        _killPlayer = GameObject.FindGameObjectWithTag("Fox");
+        _moveCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        _cameraPositionZ = _moveCamera.transform.position.z;
+
+    }
 
     void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.CompareTag("Fox"))
         {
             _killPlayer.transform.position = CheckPoint.SpawnPoint;
-            //died = true;
+            _moveCamera.transform.position = new Vector3(CheckPoint.SpawnPoint.x, _killPlayer.transform.position.y, _cameraPositionZ);
         }
     }
 }
