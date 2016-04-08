@@ -21,6 +21,10 @@ public class LayerMovement : MonoBehaviour
         savedOffset = GetComponent<Renderer>().sharedMaterial.GetTextureOffset("_MainTex");
         player = GameObject.FindGameObjectWithTag("Fox");
         layerPosition = transform.position;
+
+        playerPositionHorizontal = player.transform.position.x;
+        transform.position = new Vector3(playerPositionHorizontal, layerPosition.y, layerPosition.z);
+
     }
 
     void FixedUpdate()
@@ -47,6 +51,7 @@ public class LayerMovement : MonoBehaviour
             transform.position = new Vector3(playerPositionHorizontal, layerPosition.y, layerPosition.z);
         }
     }
+
     //When the game is stopped
     void OnDisable()
     {
