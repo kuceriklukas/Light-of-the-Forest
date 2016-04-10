@@ -102,7 +102,7 @@ public class Movement : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Ground"))
+        if ((col.isTrigger && col.gameObject.tag.Equals("Ground")) || (col.isTrigger && col.gameObject.tag.Equals("Leaf")))
         {
             _animator.SetBool("IsJumping", false);
             _isCollided = true;
