@@ -21,7 +21,7 @@ namespace Assets.Scripts.Leaves
         {
             spawnPositon = new Vector3(this.gameObject.transform.position.x,YAxis,0);
             _screenBottom = Camera.main.ViewportToWorldPoint(Vector3.zero).y;
-            InvokeRepeating("Leafing", _repeatTime, _repeatTime);
+            //InvokeRepeating("Leafing", _repeatTime, _repeatTime);
 
         }
 
