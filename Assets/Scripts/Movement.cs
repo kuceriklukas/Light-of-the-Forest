@@ -16,6 +16,10 @@ public class Movement : MonoBehaviour
     //Setting the player animator
     private Animator _animator;
 
+    //sounds
+    private AudioController _audioController;
+    private AudioSource _runningSource;
+
     //Setting the jump variable to avoid air jumping
     private bool _isCollided;
 
@@ -25,6 +29,9 @@ public class Movement : MonoBehaviour
     //Our bitflag which checks if the fox is facing left or right
     public bool flipped;
 
+    //bool that checks if fox is running
+    public bool isRunning;
+
     //Setting the animation speed here
     public float animationSpeed;
 
@@ -33,6 +40,9 @@ public class Movement : MonoBehaviour
 	{
 	    _animator = GetComponent<Animator>();    
         _animator.speed = animationSpeed;
+
+        _audioController = new AudioController();
+        _runningSource = GetComponents<AudioSource>()[0];
         //_killPlayer = (KillPlayer) FindObjectOfType(typeof (KillPlayer));
 	}
 	
@@ -41,8 +51,8 @@ public class Movement : MonoBehaviour
 	{
 
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
-	    {
-            _animator.SetBool("IsRunning", true);
+        {
+            isRunning = true;
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
             Vector3 flipRight = new Vector3(transform.localScale.x * -1, transform.localScale.y,
                 transform.localScale.z);
@@ -55,7 +65,7 @@ public class Movement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
-            _animator.SetBool("IsRunning", true);
+            isRunning = true;
             var move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
             Vector3 flipLeft = new Vector3(transform.localScale.x * -1, transform.localScale.y,
                 transform.localScale.z);
@@ -68,7 +78,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            _animator.SetBool("IsRunning", false);
+            isRunning = false;
         }
 
 	    if (Input.GetKey(KeyCode.Space) && _isCollided)
@@ -76,7 +86,7 @@ public class Movement : MonoBehaviour
             //_actualJumpForce += JumpForce*0.1f;
             //if (_actualJumpForce < JumpForce)
             //{
-            _animator.SetBool("IsRunning", false);
+	        isRunning = false;
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
 	        //}
 	    }
@@ -94,7 +104,6 @@ public class Movement : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Enemy"))
         {
-            _animator.SetBool("IsJumping", false);
             _animator.Play("PlayerJumping");
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
         }
@@ -104,6 +113,16 @@ public class Movement : MonoBehaviour
     {
         if ((col.isTrigger && col.gameObject.tag.Equals("Ground")) || (col.isTrigger && col.gameObject.tag.Equals("Leaf")))
         {
+            if (isRunning)
+            {
+                _animator.SetBool("IsRunning", true);
+                _audioController.PlaySound(_runningSource);
+            }
+            else
+            {
+                _animator.SetBool("IsRunning", false);
+                _audioController.StopSound(_runningSource);
+            }
             _animator.SetBool("IsJumping", false);
             _isCollided = true;
             //_actualJumpForce = 0f;
@@ -112,7 +131,10 @@ public class Movement : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
+        _audioController.StopSound(_runningSource);
+        _animator.SetBool("IsRunning", false);
         _animator.SetBool("IsJumping", true);
         _isCollided = false;
     }
+
 }
