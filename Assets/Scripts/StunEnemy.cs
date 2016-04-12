@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Diagnostics;
 
@@ -7,11 +8,13 @@ public class StunEnemy : MonoBehaviour {
     //private AudioSource _destroySound;
 
     private SpiderBehaviour spiderObject;
+    private BirdBehaviour birdObject;
     // Use this for initialization
     void Start ()
     {
         //_destroySound = GameObject.FindGameObjectWithTag("SoundController").GetComponents<AudioSource>()[0];
         spiderObject = (SpiderBehaviour) FindObjectOfType(typeof (SpiderBehaviour));
+        birdObject = (BirdBehaviour)FindObjectOfType(typeof (BirdBehaviour));
     }
 	
 	// Update is called once per frame
@@ -21,10 +24,14 @@ public class StunEnemy : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.CompareTag("Fox") && spiderObject.stunned == false)
+        if (coll.CompareTag("Fox") && this.gameObject.name.Contains("SpiderEnemy"))
         {
             //_destroySound.Play();
             spiderObject.Stun();
+        }
+        if (coll.CompareTag("Fox") && this.gameObject.name.Contains("bird"))
+        {
+            birdObject.Stun();
         }
     }
 }

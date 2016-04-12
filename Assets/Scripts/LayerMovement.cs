@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -6,6 +7,7 @@ public class LayerMovement : MonoBehaviour
 {
     //Scroll Speed
     public float scrollSpeed;
+    private bool scrolling;
     //The variable that will reset the layers to original position
     //after each replay (otherwise they are remaining in the position they were stopped)
     private Vector2 savedOffset;
@@ -15,6 +17,8 @@ public class LayerMovement : MonoBehaviour
     private GameObject player;
     private float playerPositionHorizontal;
     private Vector3 layerPosition;
+    private int i;
+    private float _previousPosition;
 
     void Start()
     {
@@ -24,32 +28,47 @@ public class LayerMovement : MonoBehaviour
 
         playerPositionHorizontal = player.transform.position.x;
         transform.position = new Vector3(playerPositionHorizontal, layerPosition.y, layerPosition.z);
-
+        i = 0;
     }
 
     void FixedUpdate()
     {
+        i++;
+        if (i > 1)
+        {
+            _previousPosition = playerPositionHorizontal;
+            i = 0;
+        }
         //Layer scrolling
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
         {
-            customTime += Time.deltaTime;
-            float x = Mathf.Repeat(customTime * scrollSpeed, 1);
-            Vector2 offset = new Vector2(x, savedOffset.y);
-            GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", offset);
-
             playerPositionHorizontal = player.transform.position.x;
             transform.position = new Vector3(playerPositionHorizontal, layerPosition.y, layerPosition.z);
+
+            scrolling = !(Math.Abs(playerPositionHorizontal - _previousPosition) < 0.05f);
+            if (scrolling)
+            {
+                customTime += Time.deltaTime;
+                float x = Mathf.Repeat(customTime*scrollSpeed, 1);
+                Vector2 offset = new Vector2(x, savedOffset.y);
+                GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", offset);
+            }
+
         }
         else if (Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
-            customTime -= Time.deltaTime;
-            float x = Mathf.Repeat(customTime * scrollSpeed, 1);
-            Vector2 offset = new Vector2(x, savedOffset.y);          
-            GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", offset);
-
             playerPositionHorizontal = player.transform.position.x;
             transform.position = new Vector3(playerPositionHorizontal, layerPosition.y, layerPosition.z);
-        }
+
+            scrolling = !(Math.Abs(playerPositionHorizontal - _previousPosition) < 0.05f);
+            if (scrolling)
+            {
+                customTime -= Time.deltaTime;
+                float x = Mathf.Repeat(customTime*scrollSpeed, 1);
+                Vector2 offset = new Vector2(x, savedOffset.y);
+                GetComponent<Renderer>().sharedMaterial.SetTextureOffset("_MainTex", offset);
+            }
+        }    
     }
 
     //When the game is stopped

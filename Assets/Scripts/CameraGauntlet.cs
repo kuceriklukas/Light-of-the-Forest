@@ -1,17 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Scripts;
 
 public class CameraGauntlet : MonoBehaviour
 {
     public float Speed;
-	// Use this for initialization
-	void Start ()
+    private float _playerY;
+    private GameObject player;
+    // Use this for initialization
+    void Start ()
 	{
+        player = GameObject.FindGameObjectWithTag("Fox");	    
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-	    transform.position += new Vector3((Speed * Time.deltaTime) * -1, 0);
+        _playerY = player.transform.position.y;
+        transform.position += new Vector3((Speed * Time.deltaTime) * -1, 0);        
 	}
 }

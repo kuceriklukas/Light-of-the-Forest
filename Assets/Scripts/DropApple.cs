@@ -20,7 +20,7 @@ public class DropApple : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.tag.Equals("Fox"))
+        if (collider2D.tag.Equals("Fox") && _specialApple)
         {
             _specialApple.GetComponent<Rigidbody2D>().isKinematic = false;
         }
