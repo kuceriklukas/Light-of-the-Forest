@@ -1,0 +1,885 @@
+fileFormatVersion: 2
+guid: b17f7c8d76398034fba8452d584aff5c
+timeCreated: 1460492495
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RedSpiderWalk_0
+    21300002: RedSpiderWalk_1
+    21300004: RedSpiderWalk_2
+    21300006: RedSpiderWalk_3
+    21300008: RedSpiderWalk_4
+    21300010: RedSpiderWalk_5
+    21300012: RedSpiderWalk_6
+    21300014: RedSpiderWalk_7
+    21300016: RedSpiderWalk_8
+    21300018: RedSpiderWalk_9
+    21300020: RedSpiderWalk_10
+    21300022: RedSpiderWalk_11
+    21300024: RedSpiderWalk_12
+    21300026: RedSpiderWalk_13
+    21300028: RedSpiderWalk_14
+    21300030: RedSpiderWalk_15
+    21300032: RedSpiderWalk_16
+    21300034: RedSpiderWalk_17
+    21300036: RedSpiderWalk_18
+    21300038: RedSpiderWalk_19
+    21300040: RedSpiderWalk_20
+    21300042: RedSpiderWalk_21
+    21300044: RedSpiderWalk_22
+    21300046: RedSpiderWalk_23
+    21300048: RedSpiderWalk_24
+    21300050: RedSpiderWalk_25
+    21300052: RedSpiderWalk_26
+    21300054: RedSpiderWalk_27
+    21300056: RedSpiderWalk_28
+    21300058: RedSpiderWalk_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RedSpiderWalk_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 334
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 93.5}
+        - {x: -74, y: 60.5}
+        - {x: -79, y: 35.5}
+        - {x: -79, y: -45.5}
+        - {x: -53, y: -93.5}
+        - {x: 65, y: -93.5}
+        - {x: 79, y: -30.5}
+        - {x: 79, y: 91.5}
+        - {x: 71, y: 93.5}
+    - name: RedSpiderWalk_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 334
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -91.5}
+        - {x: 27, y: -81.5}
+        - {x: 26, y: -72.5}
+        - {x: 40, y: -91.5}
+        - {x: 47, y: -93.5}
+        - {x: 49, y: -93.5}
+        - {x: 58, y: -92.5}
+        - {x: 79, y: 40.5}
+        - {x: 79, y: 75.5}
+        - {x: 50, y: 93.5}
+        - {x: -51, y: 93.5}
+        - {x: -79, y: 42.5}
+        - {x: -79, y: -64.5}
+        - {x: -65, y: -91.5}
+        - {x: -44, y: -93.5}
+        - {x: -33, y: -88.5}
+        - {x: -18, y: -86.5}
+        - {x: -13, y: -83.5}
+        - {x: -11, y: -71.5}
+        - {x: -8, y: -90.5}
+        - {x: -4, y: -93.5}
+        - {x: 2, y: -93.5}
+        - {x: 5, y: -90.5}
+        - {x: 14, y: -93.5}
+        - {x: 25, y: -93.5}
+    - name: RedSpiderWalk_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 334
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -93.5}
+        - {x: 28, y: -91.5}
+        - {x: 27, y: -78.5}
+        - {x: 37, y: -88.5}
+        - {x: 43, y: -93.5}
+        - {x: 57, y: -93.5}
+        - {x: 79, y: 56.5}
+        - {x: 79, y: 72.5}
+        - {x: 66, y: 93.5}
+        - {x: -57, y: 93.5}
+        - {x: -79, y: 53.5}
+        - {x: -79, y: -58.5}
+        - {x: -65, y: -91.5}
+        - {x: -51, y: -93.5}
+        - {x: -42, y: -93.5}
+        - {x: -32, y: -89.5}
+        - {x: -32, y: -76.5}
+        - {x: -30, y: -79.5}
+        - {x: -18, y: -88.5}
+        - {x: -13, y: -82.5}
+        - {x: -12, y: -70.5}
+        - {x: -9, y: -92.5}
+        - {x: -6, y: -93.5}
+        - {x: 4, y: -93.5}
+        - {x: 6, y: -91.5}
+        - {x: 13, y: -93.5}
+    - name: RedSpiderWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 334
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: -93.5}
+        - {x: 72, y: -54.5}
+        - {x: 79, y: 16.5}
+        - {x: 79, y: 77.5}
+        - {x: 43, y: 93.5}
+        - {x: -28, y: 93.5}
+        - {x: -71, y: 61.5}
+        - {x: -79, y: 47.5}
+        - {x: -79, y: -42.5}
+        - {x: -51, y: -92.5}
+        - {x: -45, y: -93.5}
+        - {x: -38, y: -93.5}
+        - {x: -32, y: -88.5}
+        - {x: -17, y: -93.5}
+        - {x: 29, y: -93.5}
+        - {x: 32, y: -76.5}
+        - {x: 36, y: -89.5}
+        - {x: 39, y: -93.5}
+    - name: RedSpiderWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 93}
+        - {x: -79, y: 92}
+        - {x: -79, y: -48}
+        - {x: -49, y: -93}
+        - {x: 59, y: -93}
+        - {x: 79, y: 19}
+        - {x: 79, y: 78}
+        - {x: 30, y: 93}
+    - name: RedSpiderWalk_5
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 93}
+        - {x: -41, y: 93}
+        - {x: -79, y: 77}
+        - {x: -79, y: -15}
+        - {x: -44, y: -91}
+        - {x: -39, y: -93}
+        - {x: -28, y: -93}
+        - {x: -16, y: -85}
+        - {x: -12, y: -93}
+        - {x: 62, y: -93}
+        - {x: 79, y: 16}
+        - {x: 79, y: 81}
+    - name: RedSpiderWalk_6
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 335
+        width: 159
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: -90}
+        - {x: 9.5, y: -84}
+        - {x: 9.5, y: -77}
+        - {x: 8.5, y: -76}
+        - {x: 8.5, y: -69}
+        - {x: 7.5, y: -68}
+        - {x: 6.5, y: -54}
+        - {x: 5.5, y: -53}
+        - {x: 5.5, y: -47}
+        - {x: 5.5, y: -51}
+        - {x: 6.5, y: -52}
+        - {x: 6.5, y: -60}
+        - {x: 7.5, y: -61}
+        - {x: 7.5, y: -67}
+        - {x: 8.5, y: -68}
+        - {x: 9.5, y: -80}
+        - {x: 10.5, y: -84}
+        - {x: 14.5, y: -93}
+        - {x: 58.5, y: -93}
+        - {x: 79.5, y: 18}
+        - {x: 79.5, y: 85}
+        - {x: 59.5, y: 93}
+        - {x: -31.5, y: 93}
+        - {x: -70.5, y: 77}
+        - {x: -79.5, y: 48}
+        - {x: -79.5, y: -36}
+        - {x: -43.5, y: -93}
+        - {x: -29.5, y: -93}
+        - {x: -17.5, y: -83}
+        - {x: -14.5, y: -80}
+        - {x: -3.5, y: -93}
+        - {x: 5.5, y: -93}
+    - name: RedSpiderWalk_7
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -63}
+        - {x: 5, y: -62}
+        - {x: 4, y: -35}
+        - {x: 5, y: -52}
+        - {x: 6, y: -62}
+        - {x: 9, y: -84}
+        - {x: 16, y: -93}
+        - {x: 25, y: -93}
+        - {x: 28, y: -87}
+        - {x: 35, y: -93}
+        - {x: 56, y: -93}
+        - {x: 59, y: -91}
+        - {x: 79, y: 34}
+        - {x: 79, y: 80}
+        - {x: 60, y: 93}
+        - {x: -79, y: 93}
+        - {x: -79, y: -93}
+        - {x: 7, y: -93}
+        - {x: 9, y: -89}
+        - {x: 9, y: -87}
+        - {x: 8, y: -81}
+    - name: RedSpiderWalk_8
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: -35}
+        - {x: 79, y: 93}
+        - {x: -47, y: 93}
+        - {x: -79, y: 81}
+        - {x: -79, y: -33}
+        - {x: -41, y: -93}
+        - {x: -22, y: -93}
+        - {x: -18, y: -80}
+        - {x: -1, y: -93}
+        - {x: 65, y: -93}
+    - name: RedSpiderWalk_9
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 69}
+        - {x: 43, y: 60}
+        - {x: 30, y: 90}
+        - {x: 26, y: 93}
+        - {x: -79, y: 93}
+        - {x: -79, y: -13}
+        - {x: -67, y: -21}
+        - {x: -42, y: -93}
+        - {x: 60, y: -93}
+        - {x: 72, y: -88}
+        - {x: 79, y: -10}
+        - {x: 79, y: 70}
+    - name: RedSpiderWalk_10
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -90}
+        - {x: 6, y: -93}
+        - {x: 69, y: -93}
+        - {x: 79, y: -37}
+        - {x: 79, y: 88}
+        - {x: 65, y: 93}
+        - {x: -15, y: 93}
+        - {x: -16, y: 90}
+        - {x: -63, y: 67}
+        - {x: -66, y: 61}
+        - {x: -79, y: 44}
+        - {x: -79, y: -48}
+        - {x: -54, y: -91}
+        - {x: -37, y: -93}
+        - {x: -20, y: -93}
+        - {x: -16, y: -88}
+        - {x: -17, y: -71}
+        - {x: -11, y: -85}
+    - name: RedSpiderWalk_11
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 335
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -87}
+        - {x: -4, y: -84}
+        - {x: 2, y: -90}
+        - {x: 9, y: -93}
+        - {x: 24, y: -93}
+        - {x: 26, y: -92}
+        - {x: 29, y: -93}
+        - {x: 69, y: -93}
+        - {x: 79, y: -10}
+        - {x: 79, y: 69}
+        - {x: 74, y: 69}
+        - {x: 32, y: 93}
+        - {x: -30, y: 93}
+        - {x: -75, y: 76}
+        - {x: -79, y: 40}
+        - {x: -79, y: -13}
+        - {x: -39, y: -93}
+        - {x: -18, y: -93}
+        - {x: -15, y: -89}
+        - {x: -16, y: -70}
+        - {x: -14, y: -85}
+        - {x: -11, y: -87}
+    - name: RedSpiderWalk_12
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 336
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 34.5}
+        - {x: 79, y: 75.5}
+        - {x: 57, y: 92.5}
+        - {x: -28, y: 92.5}
+        - {x: -63, y: 67.5}
+        - {x: -79, y: 35.5}
+        - {x: -79, y: -40.5}
+        - {x: -32, y: -92.5}
+        - {x: 25, y: -92.5}
+        - {x: 26, y: -88.5}
+        - {x: 54, y: -90.5}
+        - {x: 66, y: -90.5}
+    - name: RedSpiderWalk_13
+      rect:
+        serializedVersion: 2
+        x: 5929
+        y: 336
+        width: 159
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 92.5}
+        - {x: -79.5, y: 75.5}
+        - {x: -79.5, y: -49.5}
+        - {x: -45.5, y: -92.5}
+        - {x: 76.5, y: -92.5}
+        - {x: 79.5, y: -55.5}
+        - {x: 79.5, y: 84.5}
+        - {x: 62.5, y: 92.5}
+    - name: RedSpiderWalk_14
+      rect:
+        serializedVersion: 2
+        x: 6374
+        y: 336
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -69.5}
+        - {x: 56, y: -91.5}
+        - {x: 57, y: -92.5}
+        - {x: 65, y: -92.5}
+        - {x: 71, y: -47.5}
+        - {x: 79, y: 16.5}
+        - {x: 79, y: 83.5}
+        - {x: 72, y: 92.5}
+        - {x: -57, y: 92.5}
+        - {x: -79, y: 83.5}
+        - {x: -79, y: -14.5}
+        - {x: -42, y: -92.5}
+        - {x: 23, y: -92.5}
+        - {x: 24, y: -90.5}
+        - {x: 24, y: -85.5}
+    - name: RedSpiderWalk_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 84
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 92.5}
+        - {x: -79, y: 71.5}
+        - {x: -79, y: -30.5}
+        - {x: -29, y: -92.5}
+        - {x: 67, y: -92.5}
+        - {x: 79, y: -88.5}
+        - {x: 79, y: 77.5}
+        - {x: 62, y: 92.5}
+    - name: RedSpiderWalk_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 84
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 92.5}
+        - {x: -79, y: 86.5}
+        - {x: -79, y: -92.5}
+        - {x: 74, y: -92.5}
+        - {x: 79, y: -49.5}
+        - {x: 79, y: 87.5}
+        - {x: 45, y: 92.5}
+    - name: RedSpiderWalk_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 84
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: -90.5}
+        - {x: 62, y: -91.5}
+        - {x: 71, y: -85.5}
+        - {x: 79, y: -37.5}
+        - {x: 79, y: 83.5}
+        - {x: 58, y: 92.5}
+        - {x: -57, y: 92.5}
+        - {x: -68, y: 78.5}
+        - {x: -79, y: 47.5}
+        - {x: -79, y: -37.5}
+        - {x: -43, y: -85.5}
+        - {x: -33, y: -92.5}
+        - {x: 24, y: -92.5}
+        - {x: 25, y: -90.5}
+        - {x: 24, y: -82.5}
+        - {x: 21, y: -68.5}
+    - name: RedSpiderWalk_18
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 84
+        width: 158
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: -60.5}
+        - {x: 79, y: 68.5}
+        - {x: 74, y: 68.5}
+        - {x: 67, y: 66.5}
+        - {x: 64, y: 65.5}
+        - {x: 56, y: 63.5}
+        - {x: 37, y: 92.5}
+        - {x: -49, y: 92.5}
+        - {x: -79, y: 83.5}
+        - {x: -79, y: -92.5}
+        - {x: 75, y: -92.5}
+    - name: RedSpiderWalk_19
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -93}
+        - {x: 68, y: -93}
+        - {x: 79, y: -10}
+        - {x: 79, y: 89}
+        - {x: 71, y: 93}
+        - {x: -17, y: 93}
+        - {x: -67, y: 77}
+        - {x: -79, y: 37}
+        - {x: -79, y: -27}
+        - {x: -32, y: -93}
+        - {x: -19, y: -93}
+        - {x: -15, y: -89}
+        - {x: -16, y: -70}
+        - {x: -12, y: -90}
+    - name: RedSpiderWalk_20
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -93}
+        - {x: 25, y: -90}
+        - {x: 38, y: -93}
+        - {x: 60, y: -93}
+        - {x: 70, y: -90}
+        - {x: 79, y: -1}
+        - {x: 79, y: 81}
+        - {x: 64, y: 93}
+        - {x: -56, y: 93}
+        - {x: -76, y: 84}
+        - {x: -79, y: 56}
+        - {x: -79, y: -30}
+        - {x: -32, y: -93}
+        - {x: -20, y: -93}
+        - {x: -16, y: -85}
+        - {x: -11, y: -93}
+    - name: RedSpiderWalk_21
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -93}
+        - {x: 27, y: -92}
+        - {x: 31, y: -93}
+        - {x: 55, y: -93}
+        - {x: 73, y: -88}
+        - {x: 79, y: 1}
+        - {x: 79, y: 79}
+        - {x: 66, y: 93}
+        - {x: -44, y: 93}
+        - {x: -79, y: 79}
+        - {x: -79, y: -32}
+        - {x: -42, y: -93}
+        - {x: 7, y: -93}
+        - {x: 9, y: -90}
+        - {x: 12, y: -93}
+    - name: RedSpiderWalk_22
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -93}
+        - {x: 6, y: -93}
+        - {x: 10, y: -91}
+        - {x: 10, y: -87}
+        - {x: 9, y: -86}
+        - {x: 8, y: -78}
+        - {x: 7, y: -75}
+        - {x: 5, y: -71}
+        - {x: 5, y: -46}
+        - {x: 4, y: -45}
+        - {x: 5, y: -43}
+        - {x: 5, y: -50}
+        - {x: 6, y: -62}
+        - {x: 7, y: -63}
+        - {x: 8, y: -80}
+        - {x: 9, y: -81}
+        - {x: 9, y: -83}
+        - {x: 15, y: -93}
+        - {x: 69, y: -93}
+        - {x: 79, y: -34}
+        - {x: 79, y: 86}
+        - {x: 56, y: 93}
+        - {x: -48, y: 93}
+        - {x: -79, y: 50}
+        - {x: -79, y: -15}
+        - {x: -67, y: -21}
+        - {x: -53, y: -22}
+        - {x: -37, y: -85}
+        - {x: -33, y: -93}
+        - {x: -27, y: -93}
+        - {x: -23, y: -89}
+        - {x: -18, y: -83}
+        - {x: -17, y: -71}
+    - name: RedSpiderWalk_23
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -73}
+        - {x: 7, y: -64}
+        - {x: 6, y: -63}
+        - {x: 6, y: -55}
+        - {x: 5, y: -54}
+        - {x: 4, y: -35}
+        - {x: 5, y: -50}
+        - {x: 6, y: -51}
+        - {x: 6, y: -59}
+        - {x: 7, y: -60}
+        - {x: 7, y: -67}
+        - {x: 9, y: -80}
+        - {x: 10, y: -83}
+        - {x: 16, y: -93}
+        - {x: 25, y: -93}
+        - {x: 27, y: -92}
+        - {x: 26, y: -79}
+        - {x: 41, y: -93}
+        - {x: 61, y: -93}
+        - {x: 79, y: -6}
+        - {x: 79, y: 85}
+        - {x: 56, y: 93}
+        - {x: -48, y: 93}
+        - {x: -79, y: 50}
+        - {x: -79, y: -39}
+        - {x: -57, y: -93}
+        - {x: 6, y: -93}
+        - {x: 8, y: -90}
+        - {x: 8, y: -74}
+    - name: RedSpiderWalk_24
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 93}
+        - {x: 21, y: 93}
+        - {x: 13, y: 82}
+        - {x: -5, y: 93}
+        - {x: -15, y: 93}
+        - {x: -19, y: 85}
+        - {x: -69, y: 65}
+        - {x: -79, y: 15}
+        - {x: -79, y: -10}
+        - {x: -67, y: -23}
+        - {x: -43, y: -89}
+        - {x: -41, y: -93}
+        - {x: 63, y: -93}
+        - {x: 79, y: 9}
+        - {x: 79, y: 80}
+    - name: RedSpiderWalk_25
+      rect:
+        serializedVersion: 2
+        x: 4582
+        y: 83
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -93}
+        - {x: 59, y: -93}
+        - {x: 79, y: -10}
+        - {x: 79, y: 72}
+        - {x: 44, y: 93}
+        - {x: -21, y: 93}
+        - {x: -79, y: 82}
+        - {x: -79, y: -93}
+        - {x: 26, y: -93}
+        - {x: 26, y: -92}
+        - {x: 25, y: -67}
+        - {x: 35, y: -83}
+    - name: RedSpiderWalk_26
+      rect:
+        serializedVersion: 2
+        x: 5026
+        y: 82
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 93.5}
+        - {x: -17, y: 93.5}
+        - {x: -79, y: 65.5}
+        - {x: -79, y: -93.5}
+        - {x: 54, y: -93.5}
+        - {x: 59, y: -83.5}
+        - {x: 79, y: 48.5}
+        - {x: 79, y: 74.5}
+    - name: RedSpiderWalk_27
+      rect:
+        serializedVersion: 2
+        x: 5471
+        y: 82
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 93.5}
+        - {x: -79, y: 93.5}
+        - {x: -79, y: -54.5}
+        - {x: -57, y: -93.5}
+        - {x: 56, y: -93.5}
+        - {x: 79, y: 40.5}
+        - {x: 79, y: 81.5}
+    - name: RedSpiderWalk_28
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 82
+        width: 158
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 93.5}
+        - {x: -41, y: 93.5}
+        - {x: -79, y: 76.5}
+        - {x: -79, y: -32.5}
+        - {x: -50, y: -93.5}
+        - {x: 55, y: -93.5}
+        - {x: 79, y: 57.5}
+        - {x: 79, y: 69.5}
+    - name: RedSpiderWalk_29
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 82
+        width: 159
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -69.5}
+        - {x: 7.5, y: -82.5}
+        - {x: 13.5, y: -92.5}
+        - {x: 15.5, y: -93.5}
+        - {x: 56.5, y: -93.5}
+        - {x: 59.5, y: -92.5}
+        - {x: 79.5, y: 39.5}
+        - {x: 79.5, y: 76.5}
+        - {x: 38.5, y: 93.5}
+        - {x: -63.5, y: 93.5}
+        - {x: -79.5, y: 69.5}
+        - {x: -79.5, y: -14.5}
+        - {x: -67.5, y: -20.5}
+        - {x: -53.5, y: -21.5}
+        - {x: -51.5, y: -90.5}
+        - {x: -39.5, y: -93.5}
+        - {x: 4.5, y: -93.5}
+        - {x: 5.5, y: -91.5}
+        - {x: 4.5, y: -79.5}
+        - {x: 3.5, y: -78.5}
+        - {x: 3.5, y: -68.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
