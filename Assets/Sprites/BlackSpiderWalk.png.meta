@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 8096fbaf85d98d548830744ff709fa6d
+timeCreated: 1460492475
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BlackSpiderWalk_0
+    21300002: BlackSpiderWalk_1
+    21300004: BlackSpiderWalk_2
+    21300006: BlackSpiderWalk_3
+    21300008: BlackSpiderWalk_4
+    21300010: BlackSpiderWalk_5
+    21300012: BlackSpiderWalk_6
+    21300014: BlackSpiderWalk_7
+    21300016: BlackSpiderWalk_8
+    21300018: BlackSpiderWalk_9
+    21300020: BlackSpiderWalk_10
+    21300022: BlackSpiderWalk_11
+    21300024: BlackSpiderWalk_12
+    21300026: BlackSpiderWalk_13
+    21300028: BlackSpiderWalk_14
+    21300030: BlackSpiderWalk_15
+    21300032: BlackSpiderWalk_16
+    21300034: BlackSpiderWalk_17
+    21300036: BlackSpiderWalk_18
+    21300038: BlackSpiderWalk_19
+    21300040: BlackSpiderWalk_20
+    21300042: BlackSpiderWalk_21
+    21300044: BlackSpiderWalk_22
+    21300046: BlackSpiderWalk_23
+    21300048: BlackSpiderWalk_24
+    21300050: BlackSpiderWalk_25
+    21300052: BlackSpiderWalk_26
+    21300054: BlackSpiderWalk_27
+    21300056: BlackSpiderWalk_28
+    21300058: BlackSpiderWalk_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BlackSpiderWalk_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 93.5}
+        - {x: -26.5, y: 89.5}
+        - {x: -34.5, y: 83.5}
+        - {x: -89.5, y: 39.5}
+        - {x: -89.5, y: -43.5}
+        - {x: -80.5, y: -93.5}
+        - {x: 84.5, y: -93.5}
+        - {x: 89.5, y: -91.5}
+        - {x: 89.5, y: 93.5}
+    - name: BlackSpiderWalk_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 93.5}
+        - {x: -89.5, y: 57.5}
+        - {x: -89.5, y: -52.5}
+        - {x: -72.5, y: -93.5}
+        - {x: -48.5, y: -93.5}
+        - {x: -36.5, y: -88.5}
+        - {x: -36.5, y: -81.5}
+        - {x: -18.5, y: -84.5}
+        - {x: -13.5, y: -83.5}
+        - {x: -8.5, y: -77.5}
+        - {x: -9.5, y: -63.5}
+        - {x: -11.5, y: -46.5}
+        - {x: -4.5, y: -92.5}
+        - {x: -2.5, y: -93.5}
+        - {x: 79.5, y: -93.5}
+        - {x: 89.5, y: -71.5}
+        - {x: 89.5, y: 93.5}
+    - name: BlackSpiderWalk_2
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: -93.5}
+        - {x: 70.5, y: -93.5}
+        - {x: 74.5, y: -92.5}
+        - {x: 89.5, y: 13.5}
+        - {x: 89.5, y: 73.5}
+        - {x: 60.5, y: 93.5}
+        - {x: -23.5, y: 93.5}
+        - {x: -62.5, y: 75.5}
+        - {x: -89.5, y: 56.5}
+        - {x: -89.5, y: -68.5}
+        - {x: -82.5, y: -93.5}
+        - {x: -22.5, y: -93.5}
+        - {x: -14.5, y: -84.5}
+        - {x: -9.5, y: -76.5}
+        - {x: -10.5, y: -64.5}
+        - {x: -3.5, y: -93.5}
+        - {x: 38.5, y: -93.5}
+        - {x: 39.5, y: -92.5}
+        - {x: 38.5, y: -74.5}
+    - name: BlackSpiderWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: -68.5}
+        - {x: 9.5, y: -63.5}
+        - {x: 10.5, y: -69.5}
+        - {x: 11.5, y: -73.5}
+        - {x: 12.5, y: -81.5}
+        - {x: 24.5, y: -93.5}
+        - {x: 38.5, y: -93.5}
+        - {x: 39.5, y: -92.5}
+        - {x: 38.5, y: -73.5}
+        - {x: 53.5, y: -93.5}
+        - {x: 66.5, y: -93.5}
+        - {x: 68.5, y: -92.5}
+        - {x: 73.5, y: -84.5}
+        - {x: 77.5, y: -39.5}
+        - {x: 76.5, y: -26.5}
+        - {x: 89.5, y: -2.5}
+        - {x: 89.5, y: 69.5}
+        - {x: 67.5, y: 93.5}
+        - {x: -33.5, y: 93.5}
+        - {x: -89.5, y: 51.5}
+        - {x: -89.5, y: -38.5}
+        - {x: -74.5, y: -93.5}
+        - {x: 12.5, y: -93.5}
+        - {x: 15.5, y: -92.5}
+        - {x: 12.5, y: -83.5}
+        - {x: 11.5, y: -75.5}
+        - {x: 10.5, y: -74.5}
+    - name: BlackSpiderWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 333
+        width: 178
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: 12.5}
+        - {x: 89, y: 73.5}
+        - {x: 81, y: 93.5}
+        - {x: -50, y: 93.5}
+        - {x: -80, y: 86.5}
+        - {x: -89, y: 58.5}
+        - {x: -89, y: -31.5}
+        - {x: -63, y: -93.5}
+        - {x: 68, y: -93.5}
+        - {x: 76, y: -86.5}
+        - {x: 78, y: -40.5}
+        - {x: 77, y: -26.5}
+    - name: BlackSpiderWalk_5
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -73.5}
+        - {x: 18.5, y: -72.5}
+        - {x: 18.5, y: -67.5}
+        - {x: 17.5, y: -66.5}
+        - {x: 17.5, y: -61.5}
+        - {x: 16.5, y: -60.5}
+        - {x: 16.5, y: -56.5}
+        - {x: 15.5, y: -55.5}
+        - {x: 15.5, y: -51.5}
+        - {x: 14.5, y: -46.5}
+        - {x: 14.5, y: -40.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 15.5, y: -51.5}
+        - {x: 16.5, y: -52.5}
+        - {x: 16.5, y: -57.5}
+        - {x: 17.5, y: -58.5}
+        - {x: 17.5, y: -64.5}
+        - {x: 18.5, y: -65.5}
+        - {x: 18.5, y: -70.5}
+        - {x: 19.5, y: -71.5}
+        - {x: 19.5, y: -76.5}
+        - {x: 20.5, y: -77.5}
+        - {x: 20.5, y: -80.5}
+        - {x: 23.5, y: -93.5}
+        - {x: 38.5, y: -93.5}
+        - {x: 39.5, y: -91.5}
+        - {x: 46.5, y: -93.5}
+        - {x: 76.5, y: -93.5}
+        - {x: 89.5, y: -33.5}
+        - {x: 89.5, y: 57.5}
+        - {x: 68.5, y: 93.5}
+        - {x: -34.5, y: 93.5}
+        - {x: -89.5, y: 36.5}
+        - {x: -89.5, y: -25.5}
+        - {x: -45.5, y: -93.5}
+        - {x: -32.5, y: -93.5}
+        - {x: -30.5, y: -88.5}
+        - {x: -30.5, y: -70.5}
+        - {x: -31.5, y: -69.5}
+        - {x: -31.5, y: -40.5}
+        - {x: -31.5, y: -45.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -27.5, y: -80.5}
+        - {x: -23.5, y: -84.5}
+        - {x: -13.5, y: -82.5}
+        - {x: -11.5, y: -69.5}
+        - {x: 2.5, y: -93.5}
+        - {x: 11.5, y: -93.5}
+        - {x: 15.5, y: -91.5}
+        - {x: 20.5, y: -80.5}
+        - {x: 20.5, y: -78.5}
+        - {x: 19.5, y: -77.5}
+    - name: BlackSpiderWalk_6
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -36.5}
+        - {x: 18.5, y: -81.5}
+        - {x: 24.5, y: -91.5}
+        - {x: 25.5, y: -93.5}
+        - {x: 84.5, y: -93.5}
+        - {x: 89.5, y: -64.5}
+        - {x: 89.5, y: 80.5}
+        - {x: 52.5, y: 93.5}
+        - {x: -39.5, y: 93.5}
+        - {x: -43.5, y: 91.5}
+        - {x: -89.5, y: 34.5}
+        - {x: -89.5, y: -57.5}
+        - {x: -78.5, y: -93.5}
+        - {x: 14.5, y: -93.5}
+        - {x: 18.5, y: -82.5}
+        - {x: 14.5, y: -51.5}
+        - {x: 13.5, y: -44.5}
+    - name: BlackSpiderWalk_7
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -93.5}
+        - {x: 17.5, y: -90.5}
+        - {x: 15.5, y: -76.5}
+        - {x: 13.5, y: -69.5}
+        - {x: 12.5, y: -49.5}
+        - {x: 16.5, y: -81.5}
+        - {x: 24.5, y: -93.5}
+        - {x: 36.5, y: -93.5}
+        - {x: 39.5, y: -91.5}
+        - {x: 72.5, y: -93.5}
+        - {x: 80.5, y: -82.5}
+        - {x: 89.5, y: -11.5}
+        - {x: 89.5, y: 75.5}
+        - {x: 51.5, y: 93.5}
+        - {x: -14.5, y: 93.5}
+        - {x: -26.5, y: 89.5}
+        - {x: -89.5, y: 53.5}
+        - {x: -89.5, y: -45.5}
+        - {x: -67.5, y: -93.5}
+        - {x: -28.5, y: -93.5}
+        - {x: -17.5, y: -79.5}
+        - {x: -15.5, y: -71.5}
+        - {x: 2.5, y: -93.5}
+    - name: BlackSpiderWalk_8
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 333
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: -52.5}
+        - {x: -0.5, y: -83.5}
+        - {x: 6.5, y: -91.5}
+        - {x: 14.5, y: -93.5}
+        - {x: 17.5, y: -87.5}
+        - {x: 17.5, y: -83.5}
+        - {x: 16.5, y: -82.5}
+        - {x: 16.5, y: -78.5}
+        - {x: 15.5, y: -77.5}
+        - {x: 15.5, y: -75.5}
+        - {x: 12.5, y: -66.5}
+        - {x: 13.5, y: -55.5}
+        - {x: 15.5, y: -75.5}
+        - {x: 16.5, y: -76.5}
+        - {x: 16.5, y: -80.5}
+        - {x: 20.5, y: -84.5}
+        - {x: 25.5, y: -93.5}
+        - {x: 89.5, y: -93.5}
+        - {x: 89.5, y: 91.5}
+        - {x: 77.5, y: 93.5}
+        - {x: -45.5, y: 93.5}
+        - {x: -89.5, y: 40.5}
+        - {x: -89.5, y: 3.5}
+        - {x: -33.5, y: -93.5}
+        - {x: -26.5, y: -93.5}
+        - {x: -22.5, y: -89.5}
+        - {x: -16.5, y: -77.5}
+        - {x: -17.5, y: -63.5}
+    - name: BlackSpiderWalk_9
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 334
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 93}
+        - {x: -89.5, y: 50}
+        - {x: -89.5, y: -52}
+        - {x: -42.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 93}
+    - name: BlackSpiderWalk_10
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 334
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -93}
+        - {x: 36.5, y: -86}
+        - {x: 30.5, y: -53}
+        - {x: 59.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 91}
+        - {x: 76.5, y: 93}
+        - {x: -65.5, y: 93}
+        - {x: -89.5, y: 76}
+        - {x: -89.5, y: -46}
+        - {x: -62.5, y: -93}
+        - {x: -17.5, y: -93}
+        - {x: -16.5, y: -91}
+        - {x: -15.5, y: -79}
+        - {x: -7.5, y: -90}
+        - {x: 8.5, y: -93}
+    - name: BlackSpiderWalk_11
+      rect:
+        serializedVersion: 2
+        x: 5023
+        y: 334
+        width: 178
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -60}
+        - {x: -12, y: -82}
+        - {x: -9, y: -93}
+        - {x: 89, y: -93}
+        - {x: 89, y: 77}
+        - {x: 61, y: 93}
+        - {x: -30, y: 93}
+        - {x: -87, y: 39}
+        - {x: -89, y: 36}
+        - {x: -89, y: -18}
+        - {x: -29, y: -92}
+        - {x: -26, y: -93}
+        - {x: -15, y: -93}
+        - {x: -13, y: -90}
+        - {x: -12, y: -73}
+        - {x: -19, y: -43}
+    - name: BlackSpiderWalk_12
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 334
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -82}
+        - {x: -8.5, y: -87}
+        - {x: 15.5, y: -93}
+        - {x: 35.5, y: -93}
+        - {x: 37.5, y: -83}
+        - {x: 60.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 80}
+        - {x: 79.5, y: 91}
+        - {x: 68.5, y: 93}
+        - {x: -50.5, y: 93}
+        - {x: -89.5, y: 44}
+        - {x: -89.5, y: 6}
+        - {x: -36.5, y: -93}
+        - {x: -14.5, y: -93}
+        - {x: -12.5, y: -90}
+        - {x: -11.5, y: -79}
+        - {x: -13.5, y: -60}
+        - {x: -11.5, y: -76}
+    - name: BlackSpiderWalk_13
+      rect:
+        serializedVersion: 2
+        x: 5911
+        y: 334
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: 83}
+        - {x: 86.5, y: 93}
+        - {x: -27.5, y: 93}
+        - {x: -89.5, y: 69}
+        - {x: -89.5, y: -3}
+        - {x: -41.5, y: -93}
+        - {x: 85.5, y: -93}
+        - {x: 88.5, y: -88}
+        - {x: 89.5, y: -77}
+    - name: BlackSpiderWalk_14
+      rect:
+        serializedVersion: 2
+        x: 6356
+        y: 334
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 93}
+        - {x: -80.5, y: 82}
+        - {x: -89.5, y: 54}
+        - {x: -89.5, y: -17}
+        - {x: -29.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 93}
+    - name: BlackSpiderWalk_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 54
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 93}
+        - {x: -89.5, y: 50}
+        - {x: -89.5, y: -44}
+        - {x: -74.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 60}
+        - {x: 60.5, y: 93}
+    - name: BlackSpiderWalk_16
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 54
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 93}
+        - {x: -89.5, y: 29}
+        - {x: -89.5, y: -34}
+        - {x: -58.5, y: -93}
+        - {x: 89.5, y: -93}
+        - {x: 89.5, y: 80}
+        - {x: 71.5, y: 93}
+    - name: BlackSpiderWalk_17
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 54
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 93}
+        - {x: -66.5, y: 76}
+        - {x: -89.5, y: 32}
+        - {x: -89.5, y: -15}
+        - {x: -85.5, y: -24}
+        - {x: -36.5, y: -93}
+        - {x: 78.5, y: -93}
+        - {x: 89.5, y: -90}
+        - {x: 89.5, y: 80}
+        - {x: 56.5, y: 93}
+    - name: BlackSpiderWalk_18
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 54
+        width: 178
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -82}
+        - {x: -7, y: -86}
+        - {x: 11, y: -93}
+        - {x: 89, y: -93}
+        - {x: 89, y: 80}
+        - {x: 75, y: 93}
+        - {x: -36, y: 93}
+        - {x: -89, y: 42}
+        - {x: -89, y: -43}
+        - {x: -51, y: -93}
+        - {x: -13, y: -93}
+        - {x: -11, y: -90}
+        - {x: -12, y: -70}
+        - {x: -19, y: -36}
+        - {x: -11, y: -76}
+    - name: BlackSpiderWalk_19
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 54
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: 69}
+        - {x: 66.5, y: 93}
+        - {x: -30.5, y: 93}
+        - {x: -89.5, y: 57}
+        - {x: -89.5, y: -48}
+        - {x: -65.5, y: -93}
+        - {x: -16.5, y: -93}
+        - {x: -11.5, y: -91}
+        - {x: -3.5, y: -93}
+        - {x: 89.5, y: -93}
+    - name: BlackSpiderWalk_20
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 54
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: 68}
+        - {x: 68.5, y: 93}
+        - {x: -46.5, y: 93}
+        - {x: -89.5, y: 41}
+        - {x: -89.5, y: -29}
+        - {x: -33.5, y: -93}
+        - {x: -17.5, y: -93}
+        - {x: -12.5, y: -76}
+        - {x: -7.5, y: -93}
+        - {x: 89.5, y: -93}
+    - name: BlackSpiderWalk_21
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -93.5}
+        - {x: 41.5, y: -70.5}
+        - {x: 68.5, y: -92.5}
+        - {x: 76.5, y: -91.5}
+        - {x: 81.5, y: -83.5}
+        - {x: 81.5, y: -30.5}
+        - {x: 89.5, y: -20.5}
+        - {x: 89.5, y: 74.5}
+        - {x: 73.5, y: 93.5}
+        - {x: -49.5, y: 93.5}
+        - {x: -89.5, y: 38.5}
+        - {x: -89.5, y: -34.5}
+        - {x: -40.5, y: -93.5}
+        - {x: -22.5, y: -93.5}
+        - {x: -18.5, y: -89.5}
+        - {x: -17.5, y: -65.5}
+        - {x: -4.5, y: -83.5}
+        - {x: 7.5, y: -93.5}
+    - name: BlackSpiderWalk_22
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -93.5}
+        - {x: 89.5, y: -93.5}
+        - {x: 89.5, y: 86.5}
+        - {x: 62.5, y: 93.5}
+        - {x: -68.5, y: 93.5}
+        - {x: -89.5, y: 72.5}
+        - {x: -89.5, y: -39.5}
+        - {x: -66.5, y: -93.5}
+        - {x: 14.5, y: -93.5}
+        - {x: 17.5, y: -87.5}
+        - {x: 17.5, y: -80.5}
+    - name: BlackSpiderWalk_23
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.5, y: -89.5}
+        - {x: 89.5, y: -29.5}
+        - {x: 89.5, y: 59.5}
+        - {x: 62.5, y: 93.5}
+        - {x: -50.5, y: 93.5}
+        - {x: -89.5, y: 37.5}
+        - {x: -89.5, y: -26.5}
+        - {x: -48.5, y: -93.5}
+        - {x: 14.5, y: -93.5}
+        - {x: 15.5, y: -88.5}
+        - {x: 15.5, y: -73.5}
+        - {x: 17.5, y: -82.5}
+        - {x: 25.5, y: -93.5}
+        - {x: 37.5, y: -93.5}
+        - {x: 42.5, y: -78.5}
+        - {x: 60.5, y: -93.5}
+        - {x: 71.5, y: -93.5}
+    - name: BlackSpiderWalk_24
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -71.5}
+        - {x: 15.5, y: -53.5}
+        - {x: 14.5, y: -46.5}
+        - {x: 12.5, y: -34.5}
+        - {x: 16.5, y: -57.5}
+        - {x: 17.5, y: -58.5}
+        - {x: 18.5, y: -72.5}
+        - {x: 20.5, y: -82.5}
+        - {x: 23.5, y: -93.5}
+        - {x: 38.5, y: -93.5}
+        - {x: 39.5, y: -91.5}
+        - {x: 47.5, y: -93.5}
+        - {x: 76.5, y: -93.5}
+        - {x: 89.5, y: 2.5}
+        - {x: 89.5, y: 51.5}
+        - {x: 85.5, y: 68.5}
+        - {x: 65.5, y: 93.5}
+        - {x: -34.5, y: 93.5}
+        - {x: -89.5, y: 40.5}
+        - {x: -89.5, y: -1.5}
+        - {x: -88.5, y: -5.5}
+        - {x: -45.5, y: -91.5}
+        - {x: -40.5, y: -93.5}
+        - {x: -34.5, y: -93.5}
+        - {x: -30.5, y: -88.5}
+        - {x: -29.5, y: -83.5}
+        - {x: -29.5, y: -65.5}
+        - {x: -29.5, y: -68.5}
+        - {x: -28.5, y: -75.5}
+        - {x: -23.5, y: -87.5}
+        - {x: -9.5, y: -79.5}
+        - {x: 2.5, y: -93.5}
+        - {x: 11.5, y: -93.5}
+        - {x: 16.5, y: -90.5}
+        - {x: 19.5, y: -81.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 18.5, y: -76.5}
+    - name: BlackSpiderWalk_25
+      rect:
+        serializedVersion: 2
+        x: 4573
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: -84.5}
+        - {x: 89.5, y: 3.5}
+        - {x: 89.5, y: 82.5}
+        - {x: 74.5, y: 93.5}
+        - {x: -31.5, y: 93.5}
+        - {x: -89.5, y: 59.5}
+        - {x: -89.5, y: -65.5}
+        - {x: -76.5, y: -93.5}
+        - {x: -36.5, y: -93.5}
+        - {x: -33.5, y: -89.5}
+        - {x: -30.5, y: -63.5}
+        - {x: -28.5, y: -77.5}
+        - {x: -22.5, y: -84.5}
+        - {x: -16.5, y: -84.5}
+        - {x: -10.5, y: -77.5}
+        - {x: -14.5, y: -35.5}
+        - {x: -8.5, y: -61.5}
+        - {x: -4.5, y: -93.5}
+        - {x: 39.5, y: -93.5}
+        - {x: 40.5, y: -88.5}
+        - {x: 54.5, y: -93.5}
+        - {x: 68.5, y: -93.5}
+    - name: BlackSpiderWalk_26
+      rect:
+        serializedVersion: 2
+        x: 5017
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 93.5}
+        - {x: -89.5, y: 40.5}
+        - {x: -89.5, y: -75.5}
+        - {x: -82.5, y: -93.5}
+        - {x: 89.5, y: -93.5}
+        - {x: 89.5, y: 72.5}
+        - {x: 48.5, y: 93.5}
+    - name: BlackSpiderWalk_27
+      rect:
+        serializedVersion: 2
+        x: 5461
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.5, y: -90.5}
+        - {x: 89.5, y: -59.5}
+        - {x: 89.5, y: 72.5}
+        - {x: 59.5, y: 93.5}
+        - {x: -39.5, y: 93.5}
+        - {x: -89.5, y: 77.5}
+        - {x: -89.5, y: -54.5}
+        - {x: -72.5, y: -93.5}
+        - {x: -36.5, y: -93.5}
+        - {x: -13.5, y: -85.5}
+        - {x: -9.5, y: -80.5}
+        - {x: -8.5, y: -66.5}
+        - {x: -13.5, y: -30.5}
+        - {x: -14.5, y: -23.5}
+        - {x: -3.5, y: -93.5}
+        - {x: 39.5, y: -93.5}
+        - {x: 40.5, y: -85.5}
+        - {x: 60.5, y: -93.5}
+    - name: BlackSpiderWalk_28
+      rect:
+        serializedVersion: 2
+        x: 5906
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: -84.5}
+        - {x: 89.5, y: -49.5}
+        - {x: 89.5, y: 73.5}
+        - {x: 77.5, y: 93.5}
+        - {x: -64.5, y: 93.5}
+        - {x: -89.5, y: 77.5}
+        - {x: -89.5, y: -46.5}
+        - {x: -55.5, y: -93.5}
+        - {x: -18.5, y: -93.5}
+        - {x: -9.5, y: -80.5}
+        - {x: -8.5, y: -66.5}
+        - {x: -4.5, y: -93.5}
+        - {x: 38.5, y: -93.5}
+        - {x: 42.5, y: -91.5}
+        - {x: 46.5, y: -93.5}
+        - {x: 66.5, y: -93.5}
+    - name: BlackSpiderWalk_29
+      rect:
+        serializedVersion: 2
+        x: 6350
+        y: 53
+        width: 179
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 93.5}
+        - {x: -42.5, y: 93.5}
+        - {x: -89.5, y: 65.5}
+        - {x: -89.5, y: -61.5}
+        - {x: -79.5, y: -93.5}
+        - {x: 67.5, y: -93.5}
+        - {x: 76.5, y: -79.5}
+        - {x: 89.5, y: -11.5}
+        - {x: 89.5, y: 60.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
