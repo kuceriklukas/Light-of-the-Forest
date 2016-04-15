@@ -9,27 +9,31 @@ public class StunEnemy : MonoBehaviour {
 
     private SpiderBehaviour spiderObject;
     private BirdBehaviour birdObject;
+    private GameObject spider;
+    private GameObject bird;
     // Use this for initialization
     void Start ()
     {
-        //_destroySound = GameObject.FindGameObjectWithTag("SoundController").GetComponents<AudioSource>()[0];
-        spiderObject = (SpiderBehaviour) FindObjectOfType(typeof (SpiderBehaviour));
-        birdObject = (BirdBehaviour)FindObjectOfType(typeof (BirdBehaviour));
+        spider = gameObject.transform.parent.gameObject;
+        spiderObject = spider.GetComponent<SpiderBehaviour>();
+
+        bird = this.gameObject;
+        birdObject = bird.GetComponent<BirdBehaviour>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-	
+	 
 	}
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.CompareTag("Fox") && this.gameObject.name.Contains("SpiderEnemy"))
+        if (coll.CompareTag("Fox") && spider && gameObject.transform.parent.name.Contains("SpiderEnemy"))
         {
             //_destroySound.Play();
             spiderObject.Stun();
         }
-        if (coll.CompareTag("Fox") && this.gameObject.name.Contains("bird"))
+        if (coll.CompareTag("Fox") && gameObject.name.Contains("bird"))
         {
             birdObject.Stun();
         }

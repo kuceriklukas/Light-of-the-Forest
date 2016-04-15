@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     public float HorizontalSpeed;
     public float JumpForce;
     public float AdditionalJumpForce;
+    public float MaximumForce;
+    private Rigidbody2D _playerBody;
 
     //Setting the player animator
     private Animator _animator;
@@ -35,6 +37,9 @@ public class Movement : MonoBehaviour
     //Setting the animation speed here
     public float animationSpeed;
 
+    //Light in the darkness
+    private GameObject lightObject;
+
     // Use this for initialization
     void Start ()
 	{
@@ -44,11 +49,25 @@ public class Movement : MonoBehaviour
         _audioController = new AudioController();
         _runningSource = GetComponents<AudioSource>()[0];
         //_killPlayer = (KillPlayer) FindObjectOfType(typeof (KillPlayer));
+        _playerBody = GetComponent<Rigidbody2D>();
+        
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
+	    float currentForce = _playerBody.velocity.magnitude;
+
+        if (currentForce > MaximumForce)
+        {       
+            float brakeSpeed = currentForce - MaximumForce;
+            _playerBody.drag = brakeSpeed;
+        }
+        else
+        {
+            //Default drag value
+            _playerBody.drag = 0.05f;
+        }
 
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
         {
@@ -87,7 +106,7 @@ public class Movement : MonoBehaviour
             //if (_actualJumpForce < JumpForce)
             //{
 	        isRunning = false;
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce));
+            _playerBody.AddForce(new Vector2(0, JumpForce));
 	        //}
 	    }
 
@@ -98,6 +117,12 @@ public class Movement : MonoBehaviour
         //     GetComponent<Rigidbody2D>().angularVelocity = 0f;
 	    //    _killPlayer.died = false;
 	    //} 
+
+	    if (lightObject)
+	    {
+	        lightObject.transform.position = transform.position;
+	    }
+        
 	}
 
     void OnTriggerEnter2D(Collider2D col)
@@ -105,8 +130,8 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag.Equals("Enemy"))
         {
             _animator.Play("PlayerJumping");
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
-        }
+            _playerBody.AddForce(new Vector2(0, JumpForce + AdditionalJumpForce));
+        }       
     }
 
     void OnTriggerStay2D(Collider2D col)
@@ -127,10 +152,16 @@ public class Movement : MonoBehaviour
             _isCollided = true;
             //_actualJumpForce = 0f;
         }
+
+        if (col.gameObject.tag.Equals("Darkness") && !lightObject)
+        {
+            lightObject = (GameObject)Instantiate(Resources.Load("Light"), transform.position, Quaternion.identity);
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
+        Destroy(lightObject);
         _audioController.StopSound(_runningSource);
         _animator.SetBool("IsRunning", false);
         _animator.SetBool("IsJumping", true);
