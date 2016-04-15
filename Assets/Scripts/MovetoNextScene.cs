@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MovetoNextScene : MonoBehaviour
 {
-    public String SceneName;
+    public string SceneName;
 
 	// Use this for initialization
 	void Start ()
